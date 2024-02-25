@@ -3,6 +3,8 @@ package br.com.libdolf.starwarsplanetsapi.service;
 import br.com.libdolf.starwarsplanetsapi.dtos.PlanetRequest;
 import br.com.libdolf.starwarsplanetsapi.dtos.PlanetResponse;
 import br.com.libdolf.starwarsplanetsapi.entity.Planet;
+import br.com.libdolf.starwarsplanetsapi.exceptions.BadRequestException;
+import br.com.libdolf.starwarsplanetsapi.exceptions.NotFoundException;
 import br.com.libdolf.starwarsplanetsapi.repository.SWPRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
